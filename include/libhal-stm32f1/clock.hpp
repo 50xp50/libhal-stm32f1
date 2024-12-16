@@ -23,10 +23,10 @@ namespace hal::stm32f1 {
 
 using namespace hal::literals;
 
-/// Constant for the frequency of the LSE
+/// Constant for the frequency of the LSI
 constexpr auto internal_low_speed_oscillator = 20.0_kHz;
 
-/// Constant for the frequency of the HSE
+/// Constant for the frequency of the HSI
 constexpr auto internal_high_speed_oscillator = 8.0_MHz;
 
 /// Constant for the frequency of the Flash Controller

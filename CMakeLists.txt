@@ -28,6 +28,7 @@ libhal_test_and_make_library(
   src/uart.cpp
   src/can.cpp
   src/interrupt.cpp
+  src/adc.cpp
 
   TEST_SOURCES
   tests/output_pin.test.cpp

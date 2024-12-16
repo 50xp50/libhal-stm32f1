@@ -23,6 +23,7 @@ libhal_build_demos(
   systick_timer
   uart
   can
+  adc
 
   PACKAGES
   libhal-stm32f1
